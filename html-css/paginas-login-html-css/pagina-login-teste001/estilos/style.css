@@ -61,7 +61,6 @@ h1{
     position: relative;
     background-color: #2b263d;
     color: #fff;
-    
   }
   
   .title {
@@ -135,8 +134,6 @@ h1{
     border-radius: 10px;
   }
 
-
-  
   .form label .input + span {
     color: rgba(255, 255, 255, 0.5);
     position: absolute;
@@ -178,7 +175,6 @@ h1{
   
   .submit:hover {
     background-color: #63ffb6;
-    
   }
   
   @keyframes pulse {
