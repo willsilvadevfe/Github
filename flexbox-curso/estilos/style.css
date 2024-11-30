@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.headerbox{
+    background-color: rgba(128, 128, 128, 0.89);
+}
+
+.allitens{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.item{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px 0px 5px 0px;;
+}
+
+h1{
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+.item:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
