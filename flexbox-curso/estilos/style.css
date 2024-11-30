@@ -21,14 +21,42 @@
     margin: 5px 0px 5px 0px;;
 }
 
+.item a{
+    text-decoration: none;
+    color: white;
+}
+
 h1{
     text-align: center;
     padding: 5px;
     color: white;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.637);
+}
+
+.item a:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
 
 .item:hover{
     background-color: white;
     color: black;
     cursor: pointer;
+}
+
+.mainbox{
+    flex: auto;
+    margin: 10px;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+p{
+    padding: 10px;
+}
+
+h2{
+    padding: 10px;
 }
