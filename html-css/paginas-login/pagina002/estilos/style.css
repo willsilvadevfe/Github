@@ -96,7 +96,7 @@ body{
   
   .button-submit {
     margin: 20px 0 10px 0;
-    background-color: #151717;
+    background-color: #1d2bf3e3;
     border: none;
     color: white;
     font-size: 15px;
@@ -108,7 +108,9 @@ body{
   }
   
   .button-submit:hover {
-    background-color: #252727;
+    background-color: #f2f8f8;
+    color: black;
+    border: 1px solid black;
   }
   
   .p {
