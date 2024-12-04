@@ -25,6 +25,12 @@ body{
   justify-content: center;
   align-items: center;
   margin-top: 160px;
+  
+}
+
+.text-screen{
+  display: none;
+}
 
   /*LEFT LOGIN*/
 
@@ -36,10 +42,9 @@ body{
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10.8px);
   -webkit-backdrop-filter: blur(10.8px);
-  
  }
  
-}
+
 
 .form{
   width: 320px;
@@ -50,7 +55,6 @@ body{
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10.8px);
   -webkit-backdrop-filter: blur(10.8px);
-
 }
 
 .form > h2{
@@ -66,12 +70,13 @@ body{
 .forgotpass >a{
   text-decoration: none;
   font-size: 14px;
-  color: #8e10d7c2;
+  color: #0e595cc2;
   padding: 5px;
 }
 
 .forgotpass >a:hover{
-  color: white;
+  color: #44E5E8;
+  transition: 0.5s;
 }
 
 .forgotpass{
