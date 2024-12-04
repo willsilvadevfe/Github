@@ -2,16 +2,34 @@
 @media only screen and (max-width: 600px) {
     
     body{
-        
+        height: 90.7vh;
     }
 
     .container{
         flex-direction: column;
+        margin-top: 70px;
     }
 
     .text-screen{
+        width: 400px;
+        font-size: 0.9em;
         display: block;
+        text-align: center;
+        text-transform: uppercase;
+        color: rgb(199, 194, 194);
+        letter-spacing: -1px;
     }
+
+    .text-screen  > p{
+        text-transform: none;
+        text-align: center;
+        margin: 25px 0px 50px 0px;
+        font-size: 16px;
+    }
+
+    .text-screen > p > span{
+        font-weight: bold;
+      }
 
     .form{
         box-shadow: 1px 1px 12px rgba(255, 255, 255, 0.205);
