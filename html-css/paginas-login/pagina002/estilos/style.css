@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /*Roboto*/
 
+/*Colors*/
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -11,169 +14,171 @@
 body{
     width: 100vw;
     height: 100vh;
-    background: #3f44e9;
-    background: -webkit-linear-gradient(43deg, #1920f5 0%, #2ef5fc 100%);
-    background: linear-gradient(43deg, #282fee 0%, #25f1f8 100%);
-    background-repeat: no-repeat;
+    background: #0c3d4e;
+    background: -webkit-linear-gradient(33deg, #08b3f1 0%, #38144e 100%);
+    background: linear-gradient(33deg, #10242c 0%, #4b1769 100%);
 }
 
-.container {
-
-  width: 100%;
-  height: 100%;
+.container{
   display: flex;
+  flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
+  margin-top: 160px;
 
-  /* Dark mode colors and gradient */
-  background: #121212; /* Fallback for browsers that don't support gradients */
-  background: linear-gradient(
-    135deg,
-    #121212 25%,
-    #1a1a1a 25%,
-    #1a1a1a 50%,
-    #121212 50%,
-    #121212 75%,
-    #1a1a1a 75%,
-    #1a1a1a
-  );
-  background-size: 40px 40px;
+  /*LEFT LOGIN*/
 
-  /* Animation */
-  animation: move 4s linear infinite;
+.img-screen{
+  width: 399px;
+  padding: 20px 20px;
+  border-radius: 0px 20px 20px 0px;
+  background: rgba(0, 0, 0, 0.56);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.8px);
+  -webkit-backdrop-filter: blur(10.8px);
+  
+ }
+ 
 }
 
-@keyframes move {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 40px 40px;
-  }
+.form{
+  width: 320px;
+  color: white;
+  padding: 50px;
+  border-radius: 20px 0px 0px 20px;
+  background: rgba(0, 0, 0, 0.56);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.8px);
+  -webkit-backdrop-filter: blur(10.8px);
+
+}
+
+.form > h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.4em;
+  background: #8E10D7;
+  background: linear-gradient(to right, #8E10D7 0%, #44E5E8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.forgotpass >a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #8e10d7c2;
+  padding: 5px;
+}
+
+.forgotpass >a:hover{
+  color: white;
+}
+
+.forgotpass{
+  text-align: center;
+}
+
+.register >a{
+  text-decoration: none;
+  color: #8e10d7c2;
+  font-size: 14px;
+  text-align: center;
+}
+
+.register{
+  display: none;
+  text-align: center;
 }
 
 
 
-/*forms*/
-/* From Uiverse.io by micaelgomestavares */ 
-.form {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    background-color: #ffffff;
-    padding: 30px;
-    width: 360px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.486);
-    border-radius: 20px;
-    font-family: 'Roboto', 'Segoe UI', Tahoma, Verdana, sans-serif;
-  }
-  
-  ::placeholder {
-    font-family: 'Roboto', 'Segoe UI', Tahoma, Verdana, sans-serif;
-  }
-  
-  .form button {
-    align-self: flex-end;
-  }
-  
-  .flex-column > label {
-    color: #151717;
-    font-weight: 600;
-  }
-  
-  .inputForm {
-    border: 1.5px solid #ecedec;
-    border-radius: 10px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-    transition: 0.2s ease-in-out;
-  }
-  
-  .input {
-    margin-left: 10px;
-    border-radius: 10px;
-    border: none;
-    width: 85%;
-    height: 100%;
-  }
-  
-  .input:focus {
-    outline: none;
-  }
-  
-  .inputForm:focus-within {
-    border: 1.5px solid #2d79f3;
-  }
-  
-  .flex-row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    justify-content: space-between;
-  }
-  
-  .flex-row > div > label {
-    font-size: 14px;
-    color: black;
-    font-weight: 400;
-  }
-  
-  .span {
-    font-size: 14px;
-    margin-left: 5px;
-    color: #2d79f3;
-    font-weight: 500;
-    cursor: pointer;
-  }
-  
-  .button-submit {
-    margin: 20px 0 10px 0;
-    background-color: #1d2bf3e3;
-    border: none;
-    color: white;
-    font-size: 15px;
-    font-weight: 500;
-    border-radius: 10px;
-    height: 50px;
-    width: 100%;
-    cursor: pointer;
-  }
-  
-  .button-submit:hover {
-    background-color: #f2f8f8;
-    color: black;
-    border: 1px solid black;
-  }
-  
-  .p {
-    text-align: center;
-    color: black;
-    font-size: 14px;
-    margin: 5px 0;
-  }
-  
-  .btn {
-    margin-top: 10px;
-    width: 100%;
-    height: 50px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 500;
-    gap: 10px;
-    border: 1px solid #ededef;
-    background-color: white;
-    cursor: pointer;
-    transition: 0.2s ease-in-out;
-  }
-  
-  .btn:hover {
-    border: 1px solid #2d79f3;
-    ;
-  }
-  
-/*end form*/  
+/* FORM */
+
+.input-wrapper {
+  position: relative;
+  width: 200px;
+  margin: 30px auto;
+}
+
+.input-box {
+  font-size: 16px;
+  padding: 6px 0;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  color: #08AEEA;
+  width: 100%;
+  background-color: transparent;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #08AEEA;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.input-box:focus {
+  border-color: #08AEEA;
+  outline: none;
+}
+
+.input-box:focus + .underline {
+  transform: scaleX(1);
+}
+
+/*END FORM*/
+
+/* BUTTON */
+
+/* From Uiverse.io by NorthFishHasNa */ 
+button {
+  border-radius: 8px;
+  background-color: #44e5e8;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 20px 0px;
+ }
+
+ button:hover{
+  background-color: #8e10d7ad;
+  color: white;
+ }
+ 
+ button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+ }
+ 
+ button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+ }
+ 
+ button:hover span {
+  padding-right: 15px;
+ }
+ 
+ button:hover span:after {
+  opacity: 1;
+  right: 0;
+ }
+
+ /*END BUTTON*/
+
