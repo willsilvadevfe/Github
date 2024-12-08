@@ -54,8 +54,14 @@ header > a{
 .text h2{
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  margin-top: 20px;
+  margin-top: 5px;
   color: #fff;
+}
+
+.text-line{
+  width: 200px;
+  color: #fff;
+  
 }
 .text p{
   width: 45rem;
@@ -78,7 +84,7 @@ button{
   text-align: center;
   cursor: pointer;
   color: #fff;
-  margin: 10px;
+  margin: 6px;
 }
 
 .b-login{
