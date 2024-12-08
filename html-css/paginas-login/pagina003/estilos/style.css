@@ -12,164 +12,83 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-color: #0C121C;
+    background: rgba(36, 12, 248, 0.801);
+    background: linear-gradient(47deg, rgba(28, 43, 255, 0.842) 0%, rgba(249, 103, 254, 0.658) 100%);
     
     
 }
 .container{
     width: 100vw;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    position: relative;
 }
 
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #fa67fe;
+  width: 55rem;
+  border-radius: 0px 50px 50px 0px;
+}
 
-/* Card left-login */ 
+header > a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
 
-.card {
-    width: 26em;
-    height: 24.5em;
-    background: #6441d6;
-    transition: 1s ease-in-out;
-    border-radius: 2px 0px 0px 70px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    border-right: 10px solid #0C121C;
-    
-  }
-  
-  .card span {
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    display: block;
-    padding: 10px;
-    font-size: 1em;
-  }
-  
-  .card .info {
-    font-weight: 400;
-    color: white;
-    display: block;
-    text-align: center;
-    font-size: 1em;
-    margin: 1em;
-    
-  }
-  
-  .card .img {
-    width: 9em;
-    height: 9.5em;
-    background: white;
-    border-radius: 50%;
-    border: 1px solid white;
-    align-self: center;
-  }
+.text{
+  margin-left: 7rem;
+  padding: 20px;
+}
 
- 
-  
-  .card .share {
-    margin-top: 1em;
-    display: flex;
-    justify-content: center;
-    gap: 1em;
-  }
-  
-  .card a {
-    color: white;
-    transition: 0.4s ease-in-out;
-  }
-  
-  .card a:hover {
-    color: #0C121C;
-  }
-  
-  
-  
-  
+.text h1{
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #fff;
 
-  /* End left-login */
+}
 
-  /* Card right-login */
+.text h2{
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-top: 20px;
+  color: #fff;
+}
+.text p{
+  width: 45rem;
+  margin-top: 20px;
+  color: #5a265c;
+}
 
-.form {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    gap: 9.5px;
-    padding-inline: 2em;
-    padding-bottom: 0.4em;
-    background-color: #6441d6;
-    border-radius: 0px 70px 2px 0px;
-  }
-  
-  .form-heading {
-    text-align: center;
-    margin: 2em;
-    font-size: 1.2em;
-    background-color: transparent;
-    align-self: center;
-  }
-  
-  .form-field {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5em;
-    border-radius: 10px;
-    padding: 0.6em;
-    border: none;
-    outline: none;
-    color: white;
-    background-color: #1E293B;
-    box-shadow: inset 2px 1px 5px rgba(5, 5, 5, 0.658);
-  }
-  
-  .input-field {
-    background: none;
-    border: none;
-    outline: none;
-    width: 100%;
-    color: #ccd6f6;
-    padding-inline: 1em;
-  }
-  
-  .sendMessage-btn {
-    cursor: pointer;
-    margin-bottom: 3em;
-    padding: 1em;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    color: #64ffda;
-    font-weight: bold;
-    outline: 1px solid #64ffda;
-    transition: all ease-in-out 0.3s;
-  }
-  
-  .sendMessage-btn:hover {
-    transition: all ease-in-out 0.3s;
-    background-color: #64ffda;
-    color: #000;
-    cursor: pointer;
-    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-  }
-  
- 
-  
+.buttons{
+  display: block;
+  position: absolute;
+  bottom: 10rem;
+  left: 7.5rem;
+}
 
+button{
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 1.1em;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  margin: 10px;
+}
+
+.b-login{
+  border: 2px solid #fff;
+  background-color: transparent;
   
-  .form-card2 {
-    border-radius: 0;
-    transition: all 0.2s;
-  }
-  
-  .form-card2:hover {
-  
-  }
- /* End right-login */  
-  
+}
+
+.b-register{
+  border: 2px solid #fff;
+  color: #6E3BFD;
+}
+
