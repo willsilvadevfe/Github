@@ -1,20 +1,24 @@
+ @charset "UTF-8";
+
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');/* Noto Sans*/
 
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
 }
 
 body{
     width: 100vw;
     height: 100vh;
+    background-color: #0C121C;
     
     
 }
 .container{
     width: 100vw;
     height: 100vh;
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,13 +29,15 @@ body{
 /* Card left-login */ 
 
 .card {
-    width: 20em;
-    height: 22.5em;
-    background: #171717;
+    width: 26em;
+    height: 24.5em;
+    background: #6441d6;
     transition: 1s ease-in-out;
-    border-radius: 10px;
+    border-radius: 2px 0px 0px 70px;
     display: flex;
     flex-direction: column;
+    border-right: 10px solid #0C121C;
+    
   }
   
   .card span {
@@ -52,8 +58,8 @@ body{
   }
   
   .card .img {
-    width: 4.8em;
-    height: 4.8em;
+    width: 5em;
+    height: 5em;
     background: white;
     border-radius: 15px;
     margin: auto;
@@ -72,7 +78,7 @@ body{
   }
   
   .card a:hover {
-    color: red;
+    color: #0C121C;
   }
   
   .card button {
@@ -88,7 +94,7 @@ body{
   }
   
   .card button:hover {
-    background: red;
+    background: #1E293B;
     color: white;
     cursor: pointer;
   }
@@ -97,23 +103,20 @@ body{
 
   /* Card right-login */
 
-  /* From Uiverse.io by DavidTM96 */ 
 .form {
     display: flex;
     flex-direction: column;
     align-self: center;
-    gap: 12px;
+    gap: 9.5px;
     padding-inline: 2em;
     padding-bottom: 0.4em;
-    background-color: #a87c7c;
-    background-color: #7c9ac7;
-    border-radius: 20px;
+    background-color: #6441d6;
+    border-radius: 0px 70px 2px 0px;
   }
   
   .form-heading {
     text-align: center;
     margin: 2em;
-    color: #64ffda;
     font-size: 1.2em;
     background-color: transparent;
     align-self: center;
@@ -129,8 +132,8 @@ body{
     border: none;
     outline: none;
     color: white;
-    background-color: #171717;
-    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+    background-color: #1E293B;
+    box-shadow: inset 2px 1px 5px rgba(5, 5, 5, 0.658);
   }
   
   .input-field {
@@ -164,15 +167,9 @@ body{
     box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
   }
   
-  .form-card1 {
-    background-image: linear-gradient(163deg, #64ffda 0%, #64ffda 100%);
-    border-radius: 22px;
-    transition: all 0.3s;
-  }
+ 
   
-  .form-card1:hover {
-    box-shadow: 0px 0px 30px 1px rgba(100, 255, 218, 0.3);
-  }
+
   
   .form-card2 {
     border-radius: 0;
