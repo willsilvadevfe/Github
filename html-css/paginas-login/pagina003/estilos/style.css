@@ -35,6 +35,7 @@ body{
     transition: 1s ease-in-out;
     border-radius: 2px 0px 0px 70px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     border-right: 10px solid #0C121C;
     
@@ -45,6 +46,7 @@ body{
     color: white;
     text-align: center;
     display: block;
+    padding: 10px;
     font-size: 1em;
   }
   
@@ -53,17 +55,20 @@ body{
     color: white;
     display: block;
     text-align: center;
-    font-size: 0.72em;
+    font-size: 1em;
     margin: 1em;
+    
   }
   
   .card .img {
     width: 5em;
     height: 5em;
     background: white;
-    border-radius: 15px;
-    margin: auto;
+    border-radius: 10px;
+    align-self: center;
   }
+
+ 
   
   .card .share {
     margin-top: 1em;
@@ -81,23 +86,9 @@ body{
     color: #0C121C;
   }
   
-  .card button {
-    padding: 0.8em 1.7em;
-    display: block;
-    margin: auto;
-    border-radius: 25px;
-    border: none;
-    font-weight: bold;
-    background: #ffffff;
-    color: rgb(0, 0, 0);
-    transition: 0.4s ease-in-out;
-  }
   
-  .card button:hover {
-    background: #1E293B;
-    color: white;
-    cursor: pointer;
-  }
+  
+  
 
   /* End left-login */
 
