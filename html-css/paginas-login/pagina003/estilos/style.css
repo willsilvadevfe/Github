@@ -61,10 +61,11 @@ body{
   }
   
   .card .img {
-    width: 5em;
-    height: 5em;
+    width: 9em;
+    height: 9.5em;
     background: white;
-    border-radius: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
     align-self: center;
   }
 
