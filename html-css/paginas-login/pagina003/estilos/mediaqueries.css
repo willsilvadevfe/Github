@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+@media only screen and (max-width: 600px) {
+    header{
+        width: 500px;
+        font-size: 0.9em;
+    }
+
+    .text{
+        left: 1rem;
+    }
+
+    .text h1{
+        font-size: 2em;
+    }
+
+    .text h2{
+        font-size: 1.3em;
+    }
+
+    .text p{
+        width: 400px;
+    }
+
+    .buttons{
+        left: 2rem;
+        bottom: 10rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dog{
+        left: 14rem;
+        width: 350px;
+    }
+}
+
+
+@media only screen  (min-width: 600px) and (min-width: 768px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
