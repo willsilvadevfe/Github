@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 @media only screen and (max-width: 600px) {
     header{
         width: 500px;
@@ -36,9 +35,39 @@
     }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    header{
+        width: 600px;
+        font-size: 1em;
+    }
 
-@media only screen  (min-width: 600px) and (min-width: 768px) {
+    .text{
+        left: 3rem;
+    }
 
+    .text h1{
+        font-size: 2.3em;
+    }
+
+    .text h2{
+        font-size: 1.5em;
+    }
+
+    .text p{
+        width: 500px;
+    }
+
+    .buttons{
+        left: 6rem;
+        bottom: 10rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dog{
+        left: 16rem;
+        width: 380px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
