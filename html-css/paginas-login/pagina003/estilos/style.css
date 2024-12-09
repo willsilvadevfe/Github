@@ -46,7 +46,7 @@ header > .link >a{
 
 header > .link >a:hover{
   font-weight: bold;
-  color: #0000009d;
+  color: #00000057;
   transition: 0.5s;
 }
 
@@ -81,6 +81,13 @@ header > .link >a:hover{
   color: #5a265c;
 }
 
+.dog{
+  position: absolute;
+  bottom: 0px;
+  width: 34rem;
+}
+
+
 .buttons{
   display: block;
   position: absolute;
@@ -105,8 +112,21 @@ button{
   
 }
 
+.b-login:hover{
+  box-shadow: 1px 1px 12px 3px rgba(255, 255, 255, 0.253);
+  letter-spacing: .8px;
+  transition: 0.3s;
+  
+}
+
 .b-register{
   border: 2px solid #fff;
   color: #6E3BFD;
+}
+
+.b-register:hover{
+  box-shadow: 1px 1px 12px 3px rgba(255, 255, 255, 0.295);
+  transition: 0.3s;
+  letter-spacing: .8px;
 }
 
