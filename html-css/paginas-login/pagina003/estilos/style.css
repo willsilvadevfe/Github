@@ -12,11 +12,10 @@
 body{
     width: 100vw;
     height: 100vh;
-    background: rgba(36, 12, 248, 0.801);
-    background: linear-gradient(47deg, rgba(28, 43, 255, 0.842) 0%, rgba(249, 103, 254, 0.658) 100%);
-    
-    
+    background-image: linear-gradient(47deg, rgba(28, 43, 255, 0.842) 0%, rgba(249, 103, 254, 0.658) 100%);
+  
 }
+
 .container{
     width: 100vw;
     height: 100vh;
@@ -25,22 +24,35 @@ body{
 
 header{
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
   background-color: #fa67fe;
   width: 55rem;
+  height: 4rem;
   border-radius: 0px 50px 50px 0px;
 }
 
-header > a{
+.logo{
+  padding-left: 20px;
+  color: #3a3838c4;
+}
+
+header > .link >a{
   text-decoration: none;
   color: white;
   padding: 20px;
+  letter-spacing: .5px;
+}
+
+header > .link >a:hover{
+  font-weight: bold;
+  color: #0000009d;
+  transition: 0.5s;
 }
 
 .text{
-  margin-left: 7rem;
+  position: absolute;
+  left: 5rem;
   padding: 20px;
 }
 
