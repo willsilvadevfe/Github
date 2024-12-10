@@ -5,7 +5,7 @@
         width: 500px;
         font-size: 0.9em;
     }
-
+    
     .text{
         left: 1rem;
     }
@@ -30,7 +30,7 @@
     }
 
     .dog{
-        left: 14rem;
+        right: 3rem;
         width: 350px;
     }
 }
@@ -65,22 +65,118 @@
     }
 
     .dog{
-        left: 16rem;
+        right: 1rem;
         width: 380px;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    header{
+        width: 650px;
+        font-size: 1.1em;
+    }
+
+    .text{
+        left: 5rem;
+    }
+
+    .text h1{
+        font-size: 2.5em;
+    }
+
+    .text h2{
+        font-size: 1.7em;
+    }
+
+    .text p{
+        width: 550px;
+    }
+
+    .buttons{
+        left: 8rem;
+        bottom: 10rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dog{
+        right: 5rem;
+        width: 380px;
+    }
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    header{
+        width: 750px;
+        font-size: 1.2em;
+    }
+
+    .text{
+        left: 5rem;
+    }
+
+    .text h1{
+        font-size: 2.5em;
+    }
+
+    .text h2{
+        font-size: 1.7em;
+    }
+
+    .text p{
+        width: 600px;
+    }
+
+    .buttons{
+        left: 8rem;
+        bottom: 10rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .dog{
+        right: 8rem;
+        width: 400px;
+    }
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    header{
+        width: 750px;
+        font-size: 1.2em;
+    }
+
+    .text{
+        left: 5rem;
+    }
+
+    .text h1{
+        font-size: 2.5em;
+    }
+
+    .text h2{
+        font-size: 1.7em;
+    }
+
+    .text p{
+        width: 600px;
+    }
+
+    .buttons{
+        left: 8rem;
+        bottom: 10rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .dog{
+        right: 8rem;
+        width: 500px;
+    }
 
 }
